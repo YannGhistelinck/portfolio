@@ -1,0 +1,69 @@
+@use '../utils/_variables' as *
+
+aside
+    display: flex
+    flex-direction: column
+
+
+.sideMenu__buttons
+    position: absolute
+    top: 100px
+    left: 0
+    transition: 1.5s ease-in-out
+#sideMenu__buttons__close
+    margin-left: 5px
+    & img
+        width: 45px
+        transition: 0.5s
+        &:hover
+            width: 55px
+            margin: -5px
+    &:hover
+        cursor: pointer
+    
+#sideMenu__buttons__open
+    margin-left: 10px
+    & img
+        width: 45px
+        transition: 0.5s
+        &:hover
+            width: 55px
+            margin: -5px
+    &:hover
+        cursor: pointer
+    
+
+
+
+
+.sideMenu__content
+    background-color: $primaryColor 
+    width: $sideMenuWidth
+    top: 20px
+    left: 0
+    position: relative
+    height: 300px
+    border-radius: 10px
+    transition: 1.5s ease-in-out
+    &--hide
+        left: -275px
+        height:0
+        opacity: 0 
+        margin-right: -300px
+    &__title
+        color: $secondaryTextColor
+        text-align: center
+    &__navbar
+        margin-top: 80px
+        display: flex
+        flex-direction: column
+        align-items: center
+        gap: 30px
+        &__link
+            color: $secondaryTextColor
+            text-decoration: none
+            &:hover
+                font-size: 18px
+                font-style: bold
+                color: white
+                margin-bottom: -3px

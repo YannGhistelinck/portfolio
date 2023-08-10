@@ -1,0 +1,24 @@
+@use '../utils/_variables' as *
+.headerContent
+    width: 90%
+    height: 90px
+    border-bottom: 1px solid $secondaryColor
+    //background-color: $secondary
+    padding-left: 5%
+    padding-right: 5%
+    display: flex
+    flex-direction: row
+    align-items: center
+    justify-content: space-between
+
+    &__logo
+        height: 50px
+        rotate: (92deg)
+        transition: 1s ease-in-out
+        &:hover
+            rotate: (452deg)
+    &__title
+        color: $secondaryColor
+    &__profileImg
+        width: 70px
+        border-radius: 35px

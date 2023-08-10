@@ -1,0 +1,27 @@
+@use '../utils/_variables' as *
+
+.footerContent
+    width: 100%
+    background-color: $thirdColor
+    transition: 1s ease 0.5s
+    border-top: 3px solid $secondaryColor
+    color: $secondaryTextColor
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+    align-items: center
+    gap: 10px
+    padding-top: 10px
+    padding-bottom: 10px
+    &__title
+        margin: 0
+    &__copyright
+    &__icons
+        display: flex
+        flex-direction: row
+        gap: 10px
+        justify-content: center
+        &__oneIcon
+            height: 40px
+            &:hover
+                margin-top: -5px
