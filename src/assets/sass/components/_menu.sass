@@ -3,13 +3,23 @@
 aside
     display: flex
     flex-direction: column
-
-
+    @media (max-width: $tabletStyle)
+        flex-direction: row-reverse
+        justify-content: start
+        margin: -10px 2% -10px 2%
+    @media (max-width: $mobileStyle)
+        margin: -20px 0 20px 0
 .sideMenu__buttons
     position: absolute
     top: 100px
     left: 0
     transition: 1.5s ease-in-out
+    @media (max-width: $tabletStyle)
+        position: relative
+        top: 0
+        left: 10px
+    @media (max-width: $mobileStyle)
+        display: none
 #sideMenu__buttons__close
     margin-left: 5px
     & img
@@ -37,7 +47,7 @@ aside
 
 
 .sideMenu__content
-    background-color: $primaryColor 
+    background-color: $thirdColor 
     width: $sideMenuWidth
     top: 20px
     left: 0
@@ -45,13 +55,26 @@ aside
     height: 300px
     border-radius: 10px
     transition: 1.5s ease-in-out
+    margin-bottom: 20px
+    @media (max-width: $tabletStyle)
+        width: 90%
+        height: 50px
+    @media (max-width: $mobileStyle)
+        margin: 0
+        width: 100%
+        border-radius: 0
     &--hide
         left: -275px
         height:0
         opacity: 0 
         margin-right: -300px
+        @media (max-width: $tabletStyle)
+            height: 50px
+            left: -100%
+            margin-right: -90%
+            opacity: 1
     &__title
-        color: $secondaryTextColor
+        color: $secondaryColor
         text-align: center
     &__navbar
         margin-top: 80px
@@ -59,8 +82,12 @@ aside
         flex-direction: column
         align-items: center
         gap: 30px
+        @media (max-width: $tabletStyle)
+            flex-direction: row
+            justify-content: space-around
+            margin-top: 15px
         &__link
-            color: $secondaryTextColor
+            color: $secondaryColor
             text-decoration: none
             &:hover
                 font-size: 18px

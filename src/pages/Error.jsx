@@ -1,7 +1,11 @@
+
 function Error(){
     return(
         <article className="pageTitle">
-            Error
+            <h2>Erreur 404</h2>
+
+            <h3>Page introuvable...</h3>
+
         </article>
     )
 }

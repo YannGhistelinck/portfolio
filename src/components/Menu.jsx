@@ -19,6 +19,7 @@ function Menu(){
                 <p id='sideMenu__buttons__close' onClick={animationMenu}><img src={closeIcon} alt="Close icon"/></p>
                 <p id='sideMenu__buttons__open' className='hidden' onClick={animationMenu}><img src={openIcon} alt="Open icon"/></p>
             </div>
+            
             <div className='sideMenu__content' id='sideMenu__content'>            
                 <nav className='sideMenu__content__navbar'>
                     <Link className='sideMenu__content__navbar__link' to="/">Accueil</Link>

@@ -3,26 +3,67 @@
         "id" : 1,
         "title" : "Booki",
         "description" : "Ce projet consistait à implémenter le frontend d'une agence fictive de location à partir d'une maquette graphique. L'interface du site est responsive pour pouvoir s'adapter aux différentes tailles d'écran, ordinateur, tablette et smartphone. Ce site a été entière codé depuis zéro.",
-        "cover" : "booki_cover.png",
+        "difficulte" : "Ce projet était relativement simple, je n'ai donc pas rencontré de difficulté particulière à part la découverte de flexbox et grid que je ne connaissait pas et qui offrent de superbes possibilités de mise en page.",
+        "cover" : "booki-1.webp",
+        "images" : [
+            "booki-1.webp",
+            "booki-2.webp",
+            "booki-3.webp",
+            "booki-4.webp",
+            "booki-5.webp",
+            "booki-6.webp",
+            "booki-7.webp",
+            "booki-8.webp",
+            "booki-9.webp"
+        ],
         "competences" : [
             "HTML",
             "CSS"
-        ] 
+        ],
+        "github" : "https://github.com/YannGhistelinck/p2" 
     },{
         "id" : 2,
         "title" : "Sophie Bluel",
         "description" : "L'objectif de ce projet était de créer une page web dynamique avec JavaScript pour une architecte d'intérieur fictive. À partir d'une base de code HTML j'ai créé un affichage dynamique des travaux de l'architecte, ainsi que les filtres d'affichage de ces derniers en récupérant toutes ces informations sur une API. J'ai aussi créé une modale pour gérer la création et la suppression de travaux avec l'affichage en temps réel de la photo lors de la création d'un nouveau projet (le chargement de la chargement est aussi soumis à des tests pour vérifier de l'utilisateur envoie bien une image au supporté par le backend.",
-        "cover" : "booki_cover.png",
+        "difficulte" : "La principale difficulté rentrée a été la création de la modale de gestion des projets de la gallerie et notamment la navigation entre les différentes pages de la modale que j'ai pu gérer à l'aide d'une variable pour contrôler l'ouverture et la fermeture des pages de la modale pour qu'il n'y ait toujours qu'une seule modale d'ouverte et qu'elles ne s'ouvrent pas les unes sur les autres.",
+        "cover" : "sophie-01.webp",
+        "images": [
+            "sophie-01.webp",
+            "sophie-02.webp",
+            "sophie-03.webp",
+            "sophie-04.webp",
+            "sophie-05.webp",
+            "sophie-06.webp",
+            "sophie-07.webp",
+            "sophie-08.webp",
+            "sophie-09.webp",
+            "sophie-10.webp",
+            "sophie-11.webp",
+            "sophie-gif-1.gif",
+            "sophie-gif-2.gif"
+        ],
         "competences" : [
             "HTML",
             "CSS",
             "JavaScript"
-        ]
+        ],
+        "github" : "https://github.com/YannGhistelinck/p3"
     },{
         "id" : 3,
         "title" : "Nina Carducci",
         "description" : "Ce projet est un projet d'optimisation d'un site d'une photographe fictive. Concernant les fonctionnalité, j'ai corrigé le fonctionnement des boutons \"suivant\" et \"précédent\" de la modale de la gallerie ainsi de la couleur du filtre sélectionné sur le site. Le plus gros du travail a été centré autour de l'optimisation des performances du site et sur le S.E.O.. L'objectif était d'optenir une note au minimum de 90/100 en performance, Accessibilité et S.E.O. avec une audit Lighthouse. Après optimisation, l'audit Lighthouse m'a donné les notes de 97 en performances, 100 en accessibilité et 100 en S.E.O.. Pour finir, je me suis occupé du référencement avec les balises metas et Schema.org pour le référencement local. ",
-        "cover" : "booki_cover.png",
+        "difficulte" : "La principale difficulté de ce projet a été l'optimisation des performances du site. Ce qui a fait la différence a notamment été d'optimiser au maximum les images du site en les convertissant au format webp, optimisé pour le web et en proposant trois formats d'images pour s'adapter aux différents médias ainsi que l'utilisatio de CDN pour certains fichiers pour diminuer le temps de chargement de la page.",
+        "cover" : "nina-1.webp",
+        "images" : [
+            "nina-1.webp",
+            "nina-2.webp",
+            "nina-3.webp",
+            "nina-4.webp",
+            "nina-5.webp",
+            "nina-6.webp",
+            "nina-7.webp",
+            "nina-gif-1.gif"
+        ],
         "competences" : [
             "Optimisation des performances",
             "Acessibilité",
@@ -30,12 +71,28 @@
             "DevTools",
             "Lighthouse",
             "Schema.org"
-        ]
+        ],
+        "github" : "https://github.com/YannGhistelinck/p5"
     },{
         "id" : 4,
         "title" : "Kasa",
         "description" : "Ce projet consistait à créer une WebApp pour Kasa, une agence fictive de location d'appartements entre particuliers. Le projet est créé entièrement en React, la navigation est gérée avec React Router, et le style est codé en SASS avec la méthode \"7 in 1\". L'app est responsive et l'affichage des logements est fait de façon dynamique depuis un fichier JSON. La page de logement, lorsqu'un logement est sélectionné, contient une modale qui affiche toutes les photos du logement, et les informations sont transmises à la page grâce à react state avec une redirection avec la page d'erreur en cas d'id incorrect.",
-        "cover" : "booki_cover.png",
+        "difficulte" : "Outre la découverte de Rect avec create-react-app et react-router, le point qui m'a posé le plus de problèmes a été le travail des animations css. Étant dans une recherche d'animations les plus fluides et naturelles possible, j'ai dû en simplifier certaines pour respecter le délais qui était fixé pour ce projet.",
+        "cover" : "kasa-0.webp",
+        "images" : [
+            "kasa-0.webp",
+            "kasa-1.webp",
+            "kasa-2.webp",
+            "kasa-3.webp",
+            "kasa-4.webp",
+            "kasa-5.webp",
+            "kasa-6.webp",
+            "kasa-7.webp",
+            "kasa-gif-1.gif",
+            "kasa-gif-2.gif",
+            "kasa-gif-3.gif",
+            "kasa-gif-4.gif"
+        ],
         "competences" : [
             "React",
             "React Router",
@@ -43,12 +100,25 @@
             "SASS",
             "Méthode \"7 in 1\"",
             "JavaScript"
-        ]
+        ],
+        "github" : "https://github.com/YannGhistelinck/p6"
     },{
         "id" : 5,
         "title" : "Mon Vieux Grimoire",
         "description" : "\"Mon Vieux Grimoire\" est un site fictif de notation de livres. Dans ce projet j'ai créé une API pour gérer le backend de ce site. Cette API permet de créer un compte, de se connecter, d'avoir accès à tous les livres enregistrés, à une sélection des trois livres les mieux notés et à la note moyenne de chaque livre, d'ajouter, modifier et supprimer des livres et à noter les livres. Toutes les données sont stockées dans une base de données Atlas de MongoDb et les informations de connexion ç cette base de données sont stockées dans un fichier .env du projet pour une question de sécurité (le fichier .env a été ajouté au fichier.gitignore pour qu'il ne soit pas envoyé sur github en cas de push).",
-        "cover" : "booki_cover.png",
+        "difficulte" : "Ce projet a été mon premier projet en backend, ma difficulté a principalement été de prendre en main Express et MongoDB. J'ai également passé du temps sur l'optimisation des images envoyées par les utilisateurs. Après quelques recherches j'ai finalement choisi d'utiliser Sharp pour redimensionner et convertir les fichiers images reçues au format webp.",
+        "cover" : "grimoire-1.webp",
+        "images" : [
+            "grimoire-1.webp",
+            "grimoire-2.webp",
+            "grimoire-3.webp",
+            "grimoire-4.webp",
+            "grimoire-5.webp",
+            "grimoire-6.webp",
+            "grimoire-7.webp",
+            "grimoire-8.webp",
+            "grimoire-gif-1.gif"
+        ],
         "competences" : [
             "JavaScript",
             "Node.js",
@@ -58,6 +128,7 @@
             "Sharp",
             "Bcrypt",
             "Mudler"
-        ]
+        ],
+        "github" : "https://github.com/YannGhistelinck/p7"
     }
 ]

@@ -3,13 +3,17 @@
 .smallBox
     border: 1px solid $thirdColor
     border-radius: 15px
+    height: 200px
     width: 45%
+    @media (max-width: $mobileStyle)
+        width: 95%
+        height: 100%
     &__title
         display: flex
         flex-direction: row
         justify-content: center
         gap: 40px
-        background-color: $secondaryTextColor
+        background-color: $secondaryColor
         border-radius: 14px
         border: 2px solid $thirdColor
         &__icon

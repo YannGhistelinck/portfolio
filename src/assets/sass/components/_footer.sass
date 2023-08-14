@@ -4,8 +4,8 @@
     width: 100%
     background-color: $thirdColor
     transition: 1s ease 0.5s
-    border-top: 3px solid $secondaryColor
-    color: $secondaryTextColor
+    border-top: 3px solid $primaryColor
+    color: $secondaryColor
     display: flex
     flex-direction: column
     justify-content: space-around
@@ -23,5 +23,7 @@
         justify-content: center
         &__oneIcon
             height: 40px
+            @media (max-width: $mobileStyle)
+                height: 35px
             &:hover
                 margin-top: -5px

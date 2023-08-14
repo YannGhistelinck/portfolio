@@ -1,4 +1,4 @@
-import profileImg from '../assets/img/profileImg.jpg'
+import profileImg from '../assets/img/profileImg.webp'
 import logo from '../assets/icons/logo.gif'
 //import icon from '../assets/icons/yannIcon.svg'
 import { Link } from 'react-router-dom'

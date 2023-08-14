@@ -1,26 +1,40 @@
 @use '../utils/_variables' as *
 
+.cardLink
+    width: 270px
+    height: 220px
+    @media (max-width: $mobileStyle)
+        width: 90%
+        height: 100%
 .card
-    border: 1px solid black
     border-radius: 10px
     height: 200px
     width: 250px
-    padding: 8px
+    padding: 6px
     color: black
     display: flex
     flex-direction: column
     justify-content: space-between
-    transition: 0.5s ease
+    transition: 0.3s ease
+    background-color: $thirdColor
+    color: $secondaryColor
+    @media (max-width: $mobileStyle)
+        width: 95%
+        height: 250px
+    
     &:hover
         height: 210px
         width: 260px
         margin: -5px
         box-shadow: -5px 5px 18px black
+        @media (max-width: $mobileStyle)
+            width: 95%
+            height: 260px
     &__cover
+        height: 100%
         object-fit: cover
         border-radius: 10px
     &__title
-        //color: $primaryTextColor
         font-size: 20px
         text-align: center
         height: 50px

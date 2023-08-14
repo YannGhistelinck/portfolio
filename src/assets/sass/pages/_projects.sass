@@ -1,9 +1,21 @@
-@use '../utils/_variables'
+@use '../utils/_variables' as *
 
 .cardContainer
     display: grid
     grid-template-columns: 1fr 1fr 1fr
     gap: 2%
     row-gap: 30px
-    align-items: center
+    justify-items: center
+    margin-bottom: 50px
+    margin-top: 50px
+    //row-gap: 30px
+    @media (max-width: 1240px)
+        grid-template-columns: 1fr 1fr
+        row-gap: 20px
+    @media (max-width: $mobileStyle)
+        display: flex
+        flex-direction: row
+        flex-wrap: wrap
+        justify-content: center
+        margin-top: 30px
     

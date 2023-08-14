@@ -1,0 +1,46 @@
+@use '../utils/_variables' as *
+
+.carousel
+    background-color: $thirdColor
+    border-radius: 15px
+    @media (max-width: $mobileStyle)
+        border-radius: 0
+    &__img
+        height: 400px
+        width: calc(100% - 100px)
+        object-fit: contain
+        border-radius: 15px
+        margin: 10px 50px 10px 50px
+        @media (max-width: 550px)
+            width: calc(100% - 10px)
+            margin: 5px
+            object-fit: cover
+            border-radius: 5px
+    &__buttons
+        display: flex
+        justify-content: space-between
+        width: 100%
+        position: relative
+        top:-235px
+        &--left
+            rotate : (180deg)
+            margin-left: 5px
+            @media (max-width: $mobileStyle)
+                margin-left: 6px
+        &--right
+            margin-right: 5px
+            @media (max-width: $mobileStyle)
+                margin-right: 6px
+        & img
+            width: 45px
+            @media (max-width: $mobileStyle)
+                width: 35px
+            &:hover
+                cursor: pointer
+    &__pictureCounter
+        display: flex
+        justify-content: center
+        position: relative
+        top: -65px
+        @media (max-width: $mobileStyle)
+            top: -50px
