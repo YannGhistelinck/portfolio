@@ -22,7 +22,7 @@ function Home(){
 
                 <div className="homePage__bloc--2">
                     <h3>Quelques mots sur moi</h3>
-                    <p className='homePage__bloc__description'>Après avoir travaillé 10 ans comme musicien professionnel, je me suis reconvertis pour pouvoir travailler dans ma deuxième passion, le développement informatique en commençant par le développement web.</p>
+                    <p className='homePage__bloc__description'>Après avoir travaillé 10 ans comme musicien professionnel, je me suis reconverti pour exercer ma deuxième passion, le développement informatique en commençant par le développement web.</p>
                 </div>
             </div>
 
@@ -73,7 +73,7 @@ function Home(){
                 <div className='homePage__bloc--2'>
                     <h3>Mes Projets</h3>
                     <p className='homePage__bloc__description'>Pour avoir un aperçu de quelques-uns de mes projets de développement web.</p>
-                    <Link className='homePage__bloc__linkButton homePage__bloc__linkButton--dark' to="/mes_projets" element={<Projects/>}>
+                    <Link className='homePage__bloc__linkButton homePage__bloc__linkButton--dark' to="/portfolio/mes_projets" element={<Projects/>}>
                         Voir mes projets
                     </Link>
                 </div>
@@ -82,13 +82,14 @@ function Home(){
 
             <div className='homePage__bloc reverseBloc'>
                 <div className='homePage__bloc--1'>
-                    <h3>Mon C.V.</h3>
+                    <h3>Lire mon C.V. pour en savoir plus sur mon parcours</h3>
                     <a href={cvPDF} target="blank"><img className="homePage__bloc__cv" src={cvImg} alt='CV'/></a>
                 </div>
 
                 <div className='homePage__bloc--2'>
                     <h3>Pour me contacter</h3>
-                    <Link className='homePage__bloc__linkButton homePage__bloc__linkButton--dark' to="/contact" element={<Contact/>}>
+                    <p className='homePage__bloc__description' >Pour faire appel à mes services, vous pouvez me contacter par mail ou par téléphone.</p>
+                    <Link className='homePage__bloc__linkButton homePage__bloc__linkButton--dark' to="/portfolio/contact" element={<Contact/>}>
                         Accéder à mes coordonnées
                     </Link>
                 </div>
