@@ -8,7 +8,7 @@ import Home from '../pages/Home'
 function Header(){
     return(
         <header className="headerContent">
-            <Link to="/" element={<Home/>}>
+            <Link to="portfolio/" element={<Home/>}>
             <img className="headerContent__logo" src={logo} alt="Icône de Yann"/>
         </Link>
             <h1 className="headerContent__title">Yann Ghistelinck</h1>

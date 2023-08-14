@@ -11,7 +11,7 @@ function Project(){
     const data = project.state
     return(
         <article className="project">
-            <Link to="/mes_projets" element={<Projects/>}><img className="project__undo" src={undo} alt="retour"/></Link>
+            <Link to="portfolio/mes_projets" element={<Projects/>}><img className="project__undo" src={undo} alt="retour"/></Link>
             <div className='project__carouselContainer'>
                 <Carousel images={data.images}/>
             </div>

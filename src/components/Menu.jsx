@@ -22,9 +22,9 @@ function Menu(){
             
             <div className='sideMenu__content' id='sideMenu__content'>            
                 <nav className='sideMenu__content__navbar'>
-                    <Link className='sideMenu__content__navbar__link' to="/">Accueil</Link>
-                    <Link className='sideMenu__content__navbar__link' to="/mes_projets">Mes projets</Link>
-                    <Link className='sideMenu__content__navbar__link' to="/contact">Me contacter</Link>
+                    <Link className='sideMenu__content__navbar__link' to="portfolio/">Accueil</Link>
+                    <Link className='sideMenu__content__navbar__link' to="portfolio/mes_projets">Mes projets</Link>
+                    <Link className='sideMenu__content__navbar__link' to="portfolio/contact">Me contacter</Link>
                 </nav>
             </div>
             

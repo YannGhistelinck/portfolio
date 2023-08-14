@@ -15,10 +15,10 @@ function Routing(){
             <div className="pageContent">
             <Menu/>
             <Routes>
-                <Route path="/" element={<Home/>}/>
-                <Route path="/mes_projets" element={<Projects/>}/>
-                <Route path="/projet" element={<Project/>}/>
-                <Route path="/contact" element={<Contact/>}/>
+                <Route path="portfolio/" element={<Home/>}/>
+                <Route path="portfolio/mes_projets" element={<Projects/>}/>
+                <Route path="portfolio/projet" element={<Project/>}/>
+                <Route path="portfolio/contact" element={<Contact/>}/>
                 <Route path="*" element={<Error/>}/>
             </Routes>
             </div>
