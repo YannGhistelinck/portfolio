@@ -73,7 +73,7 @@ function Home(){
                 <div className='homePage__bloc--2'>
                     <h3>Mes Projets</h3>
                     <p className='homePage__bloc__description'>Pour avoir un aperçu de quelques-uns de mes projets de développement web.</p>
-                    <Link className='homePage__bloc__linkButton homePage__bloc__linkButton--dark' to="portfolio/mes_projets" element={<Projects/>}>
+                    <Link className='homePage__bloc__linkButton homePage__bloc__linkButton--dark' to="/mes_projets" element={<Projects/>}>
                         Voir mes projets
                     </Link>
                 </div>
@@ -88,7 +88,7 @@ function Home(){
 
                 <div className='homePage__bloc--2'>
                     <h3>Pour me contacter</h3>
-                    <Link className='homePage__bloc__linkButton homePage__bloc__linkButton--dark' to="portfolio/contact" element={<Contact/>}>
+                    <Link className='homePage__bloc__linkButton homePage__bloc__linkButton--dark' to="/contact" element={<Contact/>}>
                         Accéder à mes coordonnées
                     </Link>
                 </div>
