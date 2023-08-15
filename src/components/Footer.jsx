@@ -5,7 +5,7 @@ function Footer(){
     return(
         <footer className="footerContent">
             <h2 className='footerContent__title'>Yann Ghistelinck</h2>
-            <p className='footerContent__copyright'>Tous droits réservés</p>
+            <p className='footerContent__copyright'>© 2023 Yann Ghistelinck. Tout droit réservé</p>
             <div className='footerContent__icons'>
                 <a href="https://www.linkedin.com/in/yann-ghistelinck/" target='blank'>
                     <img className='footerContent__icons__oneIcon' src={linkedin} alt="lien linkedin"/>

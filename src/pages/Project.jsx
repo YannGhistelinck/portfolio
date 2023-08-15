@@ -18,13 +18,15 @@ function Project(){
             <div className="project__content">
                 <h2 className="project__content__title">{data.title}</h2>
                 <h3>Description du projet</h3>
-                <p className="project__content__description">
-                    {data.description}
-                </p>
+                {data.description.map((desc) => {
+                    const key= data.id + desc
+                    return <p key={key} className="project__content__description">{desc}</p>
+                })}
                 <h3>Difficultés rencontrées</h3>
-                <p>
-                    {data.difficulte}
-                </p>
+                {data.difficulte.map((dif) => {
+                    const key= data.id + dif
+                    return <p key={key}>{dif}</p>
+                })}
                 <h3>Compétences utilisées pour ce projet</h3>
                 <div className="project__content__competences">
                     {data.competences.map((competence) => {

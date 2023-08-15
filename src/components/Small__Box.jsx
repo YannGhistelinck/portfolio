@@ -1,6 +1,14 @@
 
 
 function SmallBox({icon, title, contact, info}){
+    /*
+    let typeOfContact = null
+    if(title === "Par téléphone"){
+        typeOfContact = "tel"
+    }else{
+        typeOfContact = "mailto"
+    }
+    */
     return(
         <div className="smallBox">
             <div className='smallBox__title'>
@@ -10,9 +18,12 @@ function SmallBox({icon, title, contact, info}){
             <div className='smallBox__content'>
                 <h4 className="smallBox__content__contact">{contact}</h4>
                 <p className="smallBox__content__info">{info}</p>
+                
             </div>
         </div>
     )
 }
 
 export default SmallBox
+
+//<a className="link" href={typeOfContact+": "+contact}>{contact}</a>

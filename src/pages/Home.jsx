@@ -63,7 +63,7 @@ function Home(){
             <div className='homePage__bloc'>
                 <div className='homePage__bloc--1'>
                     <h3>Ce portfolio est sur Github</h3>
-                    <p className='homePage__bloc__description'>Ce site a été développé intégralement à la main, le code est accessible sur le lien Github ci-dessous.</p>
+                    <p className='homePage__bloc__description'>Ce site a été développé intégralement à la main, le code est accessible en suivant le lien Github ci-dessous.</p>
                     <a className='homePage__bloc__linkButton homePage__bloc__linkButton--light' href="https://github.com/YannGhistelinck/portfolio" target='blank'>
                         <img className='homePage__bloc__linkButton--githubIcon' src={github_small} alt="Lien GitHub"/>
                         <img className='homePage__bloc__linkButton--github' src={github} alt="Lien GitHub de ce portfolio" />
@@ -85,10 +85,10 @@ function Home(){
                     <h3>Lire mon C.V. pour en savoir plus sur mon parcours</h3>
                     <a href={cvPDF} target="blank"><img className="homePage__bloc__cv" src={cvImg} alt='CV'/></a>
                 </div>
-
+x
                 <div className='homePage__bloc--2'>
-                    <h3>Pour me contacter</h3>
-                    <p className='homePage__bloc__description' >Pour faire appel à mes services, vous pouvez me contacter par mail ou par téléphone.</p>
+                    <h3>Me contacter</h3>
+                    <p className='homePage__bloc__description' >Si vous souhaitez faire appel à mes services, vous pouvez me contacter par mail ou par téléphone.</p>
                     <Link className='homePage__bloc__linkButton homePage__bloc__linkButton--dark' to="/portfolio/contact" element={<Contact/>}>
                         Accéder à mes coordonnées
                     </Link>
